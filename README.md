@@ -2,6 +2,8 @@
 
 Tool for fixing atom-to-atom mapping on the basis of set of predefined rules. The approach is highly based on CGRtools library (https://github.com/cimm-kzn/CGRtools) [1] and uses its embedded features. 
 
+Important! Atoms should follow the same order, only AAM should differ. For corresponding reactions with wrong and correct AAM, reagent mapping should coincide. Otherwise, remapping rule will fail.
+
 `notebook.ipynb` - contains example Python code:
 - to generate remapping rules from reactions with wrong and correct mapping.
 - to apply generated rule to fix mapping in new reaction.
